@@ -1,0 +1,4 @@
+# Stratified k-fold assignment (by learner_id). No learner in train+test both.
+learner_id,fold
+L001,0
+L002,1

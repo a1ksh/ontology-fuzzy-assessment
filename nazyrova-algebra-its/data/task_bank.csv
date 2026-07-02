@@ -1,0 +1,6 @@
+# SCHEMA (540 tasks). concept_ids / link_ids reference data/ontology/ontology.json
+# difficulty in [0,1]. A link is written "src->dst".
+task_id,concept_ids,link_ids,difficulty
+T0001,polynomial,,0.35
+T0002,factoring,polynomial->factoring,0.72
+T0003,special_product_formulas,polynomial->special_product_formulas,0.50
