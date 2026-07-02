@@ -1,7 +1,0 @@
-# SCHEMA (replace rows with the full anonymised dataset, 214 learners).
-# learner_id: anonymised ID (no names). group: exp|control. session: 1..8
-# task_id: FK -> task_bank.csv. correct: 0|1. time_s: seconds. attempts: int
-learner_id,group,session,task_id,correct,time_s,attempts
-L001,exp,1,T0001,1,42,1
-L001,exp,1,T0002,0,88,3
-L002,control,1,T0001,1,55,1
