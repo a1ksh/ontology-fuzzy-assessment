@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#addition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#addition">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Natural_number"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#comparing_numbers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#comparing_numbers">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#exponentiation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#exponentiation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#factorial -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#factorial">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#greatest_common_divisor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#greatest_common_divisor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#least_common_multiple -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#least_common_multiple">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#multiplication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#multiplication">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#the_decimal_representation_of_the_number -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#the_decimal_representation_of_the_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Algebraic_Expression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Algebraic_Expression"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Algebraic_Expression"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Even_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Even_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Natural_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Algebraic_Expression"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Inequality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Inequality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Algebraic_Expression"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Integer_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Integer_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Rational_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Monomial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Monomial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Polynomial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Natural_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Natural_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Positive_integer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Negative_fraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Negative_fraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Rational_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Negative_integer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Negative_integer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Integer_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Negative_irrational -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Negative_irrational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Real_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Numbers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Numbers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Monomial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Numerical_sequence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Numerical_sequence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Algebraic_Expression"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Odd_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Odd_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Natural_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Polynomial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Polynomial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Algebraic_Expression"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Positive_fraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Positive_fraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Rational_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Positive_integer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Positive_integer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Integer_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Positive_irrational -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Positive_irrational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Real_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Prime_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Prime_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Natural_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Rational_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Rational_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Real_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Real_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Real_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Numbers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Natural_number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic_progression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic_progression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Numerical_sequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#exponential_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#exponential_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#exponential_function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#exponential_function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#exponential_inequality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#exponential_inequality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Inequality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#geometric_progression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#geometric_progression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Numerical_sequence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#irrational_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#irrational_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#irrational_function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#irrational_function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#irrational_inequality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#irrational_inequality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Inequality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#linear_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#linear_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#linear_function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#linear_function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#linear_inequality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#linear_inequality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Inequality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#logarithmic_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#logarithmic_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#logarithmic_function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#logarithmic_function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#logarithmic_inequality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#logarithmic_inequality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Inequality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#quadratic_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#quadratic_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#quadratic_function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#quadratic_function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#quadratic_inequality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#quadratic_inequality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Inequality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#rational_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#rational_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#rational_function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#rational_function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#rational_inequality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#rational_inequality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Inequality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#trigonometric_equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#trigonometric_equation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#trigonometric_function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#trigonometric_function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#trigonometric_inequality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#trigonometric_inequality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Inequality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Сomposite_number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Сomposite_number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Natural_number"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#addition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#addition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#comparing_numbers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#comparing_numbers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#composite_number -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#composite_number">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Сomposite_number"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#even_number -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#even_number">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Even_number"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#exponentiation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#exponentiation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#factorial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#factorial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#greatest_common_divisor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#greatest_common_divisor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#least_common_multiple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#least_common_multiple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#multiplication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#multiplication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#nought -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#nought">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Integer_number"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#odd_number -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#odd_number">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Odd_number"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#prime_number -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#prime_number">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#Prime_number"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#the_decimal_representation_of_the_number -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#the_decimal_representation_of_the_number">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Гульбаршын/ontologies/2014/0/untitled-ontology-5#arithmetic"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
