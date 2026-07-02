@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Ontology-Fuzzy Assessment Model for Elementary Algebra (ITS)"
+message: "If you use this repository, please cite the paper below."
+authors:
+  - family-names: Nazyrova
+    given-names: Aizhan
+  # ... add all authors
+preferred-citation:
+  type: article
+  title: "Intelligent Learning and Knowledge-Control Tools for Elementary Algebra: An Ontology-Fuzzy Assessment Model and Adaptive Architecture"
+  journal: "International Journal of Intelligent Engineering and Systems"
+  year: 20XX
+  doi: "10.22266/ijies20XX.xxxx.xx"
